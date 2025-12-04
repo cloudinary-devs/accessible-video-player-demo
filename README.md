@@ -41,7 +41,8 @@ This application serves as a reference implementation for developers who want to
 
 3. **Set up environment variables**
 
-   Update the `.env.local` file in the root directory:
+   Rename the `.env.example` file to `.env.local` in the root directory and fill in with your
+   Cloudinary credentials:
 
    ```env
    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloud_name
@@ -228,7 +229,6 @@ npm install --save-dev @axe-core/react eslint-plugin-jsx-a11y
 - [ ] Screen reader announces all controls correctly
 - [ ] Focus indicators visible on all interactive elements
 - [ ] Captions display correctly when enabled
-- [ ] Video works without JavaScript (graceful degradation)
 - [ ] Color contrast meets WCAG AA standards (4.5:1 for text)
 - [ ] Video player is responsive on mobile devices
 - [ ] All images have alt text
